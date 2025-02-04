@@ -2,7 +2,7 @@ package org.example;
 import java.util.Map;
 import java.util.HashMap;
 
-public class 统计单词频率 {
+public class test_word {
     public static void main(String[] args) {
         String str = "hello world hello olso hello lima";
         String[] arr = str.split(" ");
