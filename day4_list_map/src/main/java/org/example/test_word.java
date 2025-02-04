@@ -14,9 +14,10 @@ public class 统计单词频率 {
         }
         System.out.println(map);
 
-//        for(String s : map.keySet()){   //返回所有key的集合
-//            System.out.println(s + " " + map.get(s));
-//        }
+        for(String s : map.keySet()){   //返回所有key的集合
+            System.out.println(s + " " + map.get(s));
+        }
+        //forEach
         map.forEach((k,v)->System.out.println(k+" "+v));
     }
 }
