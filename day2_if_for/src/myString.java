@@ -7,7 +7,9 @@ public class myString {
 
         //字符串相等
        String s3 = new String("hello");
-//       System.out.println(s1 == s3);// false, s1和s2不是同一个对象
+       String s5 = "hello";
+       System.out.println(s1 == s3);// false, s1和s2不是同一个对象
+       System.out.println(s1 == s5);// true，字符串常量池中相同的字符串字面量会共享相同的内存地址（引用），所以相同字面量的字符串比较是true。
 //        System.out.println(s1.equals(s3));
 
 //        String str = "";

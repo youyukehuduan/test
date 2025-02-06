@@ -18,5 +18,6 @@ public class List1 {
         }
         list.forEach(str -> System.out.println(str));
 
+
     }
 }

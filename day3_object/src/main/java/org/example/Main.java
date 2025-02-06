@@ -9,6 +9,7 @@ public class Main {
         Dog dog = new Dog("Rose");
         dog.Sound();
 
+
         // 向上转型：父类引用指向子类对象
         Animal animal2 = new Dog("Mike");
         animal2.Sound();    // 调用重写后的方法
